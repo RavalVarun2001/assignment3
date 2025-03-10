@@ -1,0 +1,64 @@
+<!--
+
+    Describe the grid-template-columns, grid-template-rows, and grid-gapproperties. Provide examples of how to use them.
+
+        1.
+
+            Grid-template-columns defines the number and size of columns in a grid container.
+            It accepts values like fixed lengths , percentages, fr units, or auto.
+            It Can be set to repeat patterns using repeat() or responsive sizing like minmax().
+            
+        2.
+
+            Grid-template-rows specifies the number and height of rows in a grid container.
+            It uses similar values as grid-template-columns, allowing fixed or flexible row sizing.
+
+        3. 
+            Grid-gap Determines the spacing between rows and columns in a grid.
+            It can be defined using row-gap and column-gap individually or as a shorthand.
+            It does not apply to the outer edges of the grid container.
+
+
+        Example
+
+            <!DOCTYPE html>
+                <html lang="en">
+                    <head>
+                        <meta charset="UTF-8">
+                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                        <title>CSS Grid Example</title>
+                        <style>
+                            .container {
+                                display: grid;
+                                grid-template-columns: 150px 1fr 2fr;
+                                grid-template-rows: 100px 150px;
+                                gap: 10px 20px; /* 10px row-gap, 20px column-gap */
+                                border: 2px solid black;
+                                padding: 10px;
+                            }
+
+                            .item {
+                                background-color: lightblue;
+                                text-align: center;
+                                font-size: 20px;
+                                padding: 20px;
+                                border: 1px solid blue;
+                            }
+                        </style>
+                    </head>
+                    <body>
+
+                        <div class="container">
+                            <div class="item">Item 1</div>
+                            <div class="item">Item 2</div>
+                            <div class="item">Item 3</div>
+                            <div class="item">Item 4</div>
+                            <div class="item">Item 5</div>
+                            <div class="item">Item 6</div>
+                        </div>
+
+                    </body>
+                </html>
+
+
+-->
